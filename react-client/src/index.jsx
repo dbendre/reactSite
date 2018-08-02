@@ -1,0 +1,1 @@
+// this file serves as the entry point of the application where we point to all our .jsx files
