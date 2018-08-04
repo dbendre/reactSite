@@ -16,7 +16,7 @@ class NavBar extends Component {
                         <LinkExt to=""> Projects </LinkExt>
                         <LinkExt to="" target="_blank">Resume</LinkExt>
                         {/*<Link to=""><a href="https://drive.google.com/file/d/1wWK861wYkwzRtfNvrZSBrYIARhpZ5D3a/view?usp=sharing"> Resume </a></Link>*/}
-                        <Link to=""> db Studios </Link>
+                        <LinkExt to=""> db Studios </LinkExt>
                     </li>
                 </ul>
             </header>

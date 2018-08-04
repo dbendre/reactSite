@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const LinkExt = styled(Link)`
-    text-decoration: none,
-    &:focus, &:hover, &:visited, &:active {
+    color: #000;
+    padding-right: 12px;
+    &:focus, &:visited, &:active {
         text-decoration: none;
-        // padding-right: 10em;
+    };
+    &:hover {
+        opacity: 0.3;
+        text-decoration: none;
     }
 `;
 
