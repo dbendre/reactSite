@@ -1,18 +1,13 @@
-import React, { Component, PropTypes} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import isExternal from 'is-url-external';
+import styled from 'styled-components';
 
-const propTypes = {
-    to: PropTypes.string.isRequired
-};
-
-export default class LinkExt extends Component {
-    render() {
-        return isExternal(this.props.to) ? <a
-            href={this.props.to}
-            {...this.props}
-            /> : <Link {...this.props} />
+const LinkExt = styled(Link)`
+    text-decoration: none,
+    &:focus, &:hover, &:visited, &:active {
+        text-decoration: none;
+        // padding-right: 10em;
     }
-}
+`;
 
-LinkExt.propTypes = propTypes;
+export default (props) => <LinkExt{...props} />;

@@ -1,9 +1,9 @@
 header {
     display: block;
-    background-color: black;
+    background-color: #fff;
     width: 100%;
     height: 50px;
-    color: white;
+    color: black;
 }
 
 #headerButtons {
@@ -14,6 +14,10 @@ header {
 
 .navButton {
     float: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5vw;
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 footer {

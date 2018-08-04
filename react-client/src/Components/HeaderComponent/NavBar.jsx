@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import LinkExt  from './LinkExt';
 
 class NavBar extends Component {
     render() {
@@ -7,13 +8,13 @@ class NavBar extends Component {
             <header>
                 <ul id="headerButtons">
                     <li className="navButton">
-                        <Link to="">
+                        <LinkExt to="">
                             Home
-                        </Link>
-                        <Link to=""> About </Link>
-                        <Link to=""> Skills </Link>
-                        <Link to=""> Projects </Link>
-                        <Redirect to="https://drive.google.com/file/d/1wWK861wYkwzRtfNvrZSBrYIARhpZ5D3a/view?usp=sharing" target="_blank">Resume</Redirect>
+                        </LinkExt>
+                        <LinkExt to=""> About </LinkExt>
+                        <LinkExt to=""> Skills </LinkExt>
+                        <LinkExt to=""> Projects </LinkExt>
+                        <LinkExt to="" target="_blank">Resume</LinkExt>
                         {/*<Link to=""><a href="https://drive.google.com/file/d/1wWK861wYkwzRtfNvrZSBrYIARhpZ5D3a/view?usp=sharing"> Resume </a></Link>*/}
                         <Link to=""> db Studios </Link>
                     </li>
