@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 class NavBar extends Component {
     render() {
@@ -13,7 +13,8 @@ class NavBar extends Component {
                         <Link to=""> About </Link>
                         <Link to=""> Skills </Link>
                         <Link to=""> Projects </Link>
-                        <Link to=""> Resume </Link>
+                        <Redirect to="https://drive.google.com/file/d/1wWK861wYkwzRtfNvrZSBrYIARhpZ5D3a/view?usp=sharing" target="_blank">Resume</Redirect>
+                        {/*<Link to=""><a href="https://drive.google.com/file/d/1wWK861wYkwzRtfNvrZSBrYIARhpZ5D3a/view?usp=sharing"> Resume </a></Link>*/}
                         <Link to=""> db Studios </Link>
                     </li>
                 </ul>
