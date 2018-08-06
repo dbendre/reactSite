@@ -1,16 +1,10 @@
 // about component of website
 
 import React, { Component } from 'react';
-import {Image, Label} from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
+import clouds from '../Images/cloudBackground.jpg';
 
-class TitleCard extends Component {
-    const CloudBackground = () => (
-        <Image
-            alt='Clouds'
-            src='../Images/cloudBackground.jpg'
-            fluid
 
-        />
-    )
+const Clouds = () => <Image src={clouds} fluid />;
 
-}
+export default Clouds;
