@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Clouds from '../Card/TitleCard';
+import { Cloud } from '../Card/TitleCard';
 
 class HomePage extends Component {
     render() {
-        return (
+        return ( // NOTE: might need to add <Image /> as an img
             <div>
-                testing
-                {/*<Clouds />*/}
             </div>
 
         )
