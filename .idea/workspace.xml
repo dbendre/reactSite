@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/Card/TitleCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/Card/TitleCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/Card/TitleCard.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-client/src/Components/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/Components/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-client/src/Images/cloudBackground.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-client/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.jsx" afterDir="false" />
@@ -23,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-client/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="85">
               <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TitleCard.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-client/src/Card/TitleCard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -231,12 +222,12 @@
       <workItem from="1533321233093" duration="4061000" />
       <workItem from="1533448442411" duration="2487000" />
       <workItem from="1533537966048" duration="539000" />
-      <workItem from="1533620278166" duration="1999000" />
+      <workItem from="1533620278166" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20355000" />
+    <option name="totallyTimeSpent" value="20640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,7 +240,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="22" width="1218" height="778" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.21470343" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -258,7 +248,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.43171805" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.64170337" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-client/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-client/dist/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,8 +613,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-client/src/Card/TitleCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-client/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
